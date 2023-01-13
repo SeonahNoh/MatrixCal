@@ -123,20 +123,6 @@ for(let i = 0; i < aCol; i++) {
 }
 abTableStr += "</table>";
 
-// B 행렬 랜덤
-let abTableStr2 = "<table>";
-for(let i = 0; i < bCol; i++) {
-    abTableStr2 += "<tr>";
-    for(let j = 0; j < bRow; j++) {
-        abTableStr2 += "<td><span class='abInputClass'>";
-        abTableStr2 += Number(document.getElementById(`bNumber${i}${j}`).value = Math.floor(Math.random() * 50));
-        abTableStr2 += "</span></td>";
-    }
-    abTableStr2 += "</tr>";
-}
-abTableStr2 += "</table>";
-}, false);
-
 ```
 
 </details>
